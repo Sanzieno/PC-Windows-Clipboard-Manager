@@ -70,7 +70,7 @@ root = tk.Tk()
 root.title("Clipboard History")
 root.geometry("400x500")
 
-listbox = tk.Listbox(root, font = ("Sans serif", 10))
+listbox = tk.Listbox(root, font = ("Arial", 10))
 listbox.pack(fill = "both", expand = True, padx = 10, pady = 10)
 listbox.bind("<Double-Button-1>", copy_selected)
         
